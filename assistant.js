@@ -31,7 +31,6 @@ recognition.onresult = async (event) => {
     }
 };
 
-// Function to get response from Gemini AI
 async function askGemini(text) {
     const url = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + API_KEY;
 
